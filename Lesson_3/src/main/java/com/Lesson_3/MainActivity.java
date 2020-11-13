@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String city = ((EditText) findViewById(R.id.etCity)).getText().toString();
+                String city = ((EditText) findViewById(R.id.et)).getText().toString();
 
                 new WeatherTask(city).execute();
             }

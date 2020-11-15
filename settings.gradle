@@ -1,3 +1,4 @@
+include ':Test'
 include ':MyApp_3'
 include ':MyApp_2'
 include ':MyApp_1'
